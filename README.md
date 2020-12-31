@@ -8,7 +8,10 @@ The Aim of this project is to learn implementation of an iOS app, using RxSwift 
 
 Here is how the project looks
 
-!https://user-images.githubusercontent.com/47769641/103414607-acc14880-4ba4-11eb-8bc0-04c0e6dbb97f.mov
+<img width="322" alt="Screenshot 2020-12-31 at 8 28 45 PM" src="https://user-images.githubusercontent.com/47769641/103415121-cc597080-4ba6-11eb-9aae-65e7e03e82c4.png">
+<img width="325" alt="ss2" src="https://user-images.githubusercontent.com/47769641/103415107-bc419100-4ba6-11eb-90c5-5278f3df008d.png">
+<img width="328" alt="ss3" src="https://user-images.githubusercontent.com/47769641/103415078-9ddb9580-4ba6-11eb-9cfc-448237138241.png">
+
 
 Steps for installation.
   • Clone the app from the repo (develop branch).
