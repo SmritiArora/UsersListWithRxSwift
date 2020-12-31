@@ -1,0 +1,6 @@
+framework module Pods_UsersListwithRx_UsersListwithRxUITests {
+  umbrella header "Pods-UsersListwithRx-UsersListwithRxUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
