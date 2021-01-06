@@ -18,7 +18,7 @@ class MainViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        userViewModelInstance.callApi()
+        userViewModelInstance.fetchUserList()
         controller = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "UserDetailController") as UserDetailViewController
         bindUI()
     }

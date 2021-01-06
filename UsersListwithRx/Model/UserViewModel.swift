@@ -19,14 +19,10 @@ class UserViewModel {
     var userViewModelObserver: Observable<[UserDetailModel]> {
         return userViewModel.asObservable()
     }
-    private let didErrorOut = BehaviorRelay<String>(value: " ")
-    var didErrorOutObserver: Observable<String> {
-        return didErrorOut.asObservable()
-    }
     
     private let disposeBag = DisposeBag()
     
-    func callApi() {
+    func fetchUserList() {
         users = request.callAPI()
         users?.subscribe(onNext: { (value) in
             var userViewModelArray = [UserDetailModel]()
