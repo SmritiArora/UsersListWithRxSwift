@@ -10,7 +10,7 @@ Here is how the project looks
 
 ![Output sample](https://user-images.githubusercontent.com/47769641/103785835-b265d500-5061-11eb-9467-3153e6d5168a.gif)
 
-Steps for installation.<br/>
+<h3>Steps for installation.</h3><br/>
   • Clone the app from the repo ([develop branch](https://github.com/SmritiArora/UsersListWithRxSwift/tree/develop)).<br/>
   • Go in to the project's directory folder.<br/>
   • Run the pod install command on terminal inside your project folder.<br/>
