@@ -136,13 +136,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E8854502256F8D7000C8EEA8 /* Network */ = {
+		E873E56A25A74913000FF136 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				E8854503256F8DAC00C8EEA8 /* DataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E8854502256F8D7000C8EEA8 /* Network Layer */ = {
+			isa = PBXGroup;
+			children = (
 				E8854505256F8EAB00C8EEA8 /* APIRequest.swift */,
 			);
-			path = Network;
+			path = "Network Layer";
 			sourceTree = "<group>";
 		};
 		E89D8234256ADBB10010DB76 = {
@@ -170,10 +177,10 @@
 		E89D823F256ADBB10010DB76 /* UsersListwithRx */ = {
 			isa = PBXGroup;
 			children = (
-				E8E6B10B2575226800D2861E /* TableCell */,
-				E8E6B10A2575224800D2861E /* View Controllers */,
-				E8E6B1092575222000D2861E /* Model */,
-				E8854502256F8D7000C8EEA8 /* Network */,
+				E873E56A25A74913000FF136 /* Model */,
+				E8E6B10A2575224800D2861E /* View */,
+				E8E6B1092575222000D2861E /* ViewModel */,
+				E8854502256F8D7000C8EEA8 /* Network Layer */,
 				E89D8240256ADBB10010DB76 /* AppDelegate.swift */,
 				E89D8242256ADBB10010DB76 /* SceneDelegate.swift */,
 				E89D8246256ADBB10010DB76 /* Main.storyboard */,
@@ -202,29 +209,22 @@
 			path = UsersListwithRxUITests;
 			sourceTree = "<group>";
 		};
-		E8E6B1092575222000D2861E /* Model */ = {
+		E8E6B1092575222000D2861E /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
 				E84466322570CB0C00139E44 /* UserViewModel.swift */,
 			);
-			path = Model;
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		E8E6B10A2575224800D2861E /* View Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				E89D8244256ADBB10010DB76 /* MainViewController.swift */,
-				E84466302570C81200139E44 /* UserDetailViewController.swift */,
-			);
-			path = "View Controllers";
-			sourceTree = "<group>";
-		};
-		E8E6B10B2575226800D2861E /* TableCell */ = {
+		E8E6B10A2575224800D2861E /* View */ = {
 			isa = PBXGroup;
 			children = (
 				E89D8272256AEBAD0010DB76 /* UserCell.swift */,
+				E89D8244256ADBB10010DB76 /* MainViewController.swift */,
+				E84466302570C81200139E44 /* UserDetailViewController.swift */,
 			);
-			path = TableCell;
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
